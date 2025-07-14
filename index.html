@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="mobile-web-app-capable" content="yes" />
+
+  <title>My App</title>
+  <link rel="manifest" href="manifest.json" />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #1e1e2f;
+      color: white;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      height: 100%;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .app-container {
+      text-align: center;
+      padding: 20px;
+    }
+
+    button {
+      background: #4caf50;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="app-container">
+    <h1>Welcome to My App</h1>
+    <p>This is a web app that feels like a native app.</p>
+    <button onclick="alert('You clicked a button!')">Tap Me</button>
+  </div>
+</body>
+</html>
